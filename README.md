@@ -1,22 +1,53 @@
-# 🌌 Project Elysium: AI-Powered Q/A System 🌌
+# 📘 EduQ: Intelligent Q/A System for Students 📘
 
-**Elysium** — where data meets intelligence. This is a Q/A Retrieval-Augmented Generation (RAG) system that combines the power of **Pinecone** as a vector database, **Gemini’s flash model** for ultra-fast AI predictions, and **Streamlit** for a seamless user interface.
+**EduQ** — a personalized, AI-driven Q/A Retrieval-Augmented Generation (RAG) system crafted specifically for students across different classes and subjects. This system enables seamless access to embedded knowledge, allowing students to query specific textbooks stored as embeddings within **Pinecone**. With **Gemini’s flash model** for rapid, accurate predictions and **Streamlit** as the user interface, EduQ offers a responsive and engaging experience for educational inquiries.
 
 ---
 
 ## 🚀 Features & Capabilities
 
-- **🧠 Intelligent Retrieval**: Leverages Pinecone as a vector database to fetch contextually relevant data from vast repositories.
-- **🔮 Predictive Power**: Uses the Gemini flash model for generating highly accurate and contextually rich answers.
-- **💻 Interactive UI**: Built on Streamlit, providing an intuitive and sleek interface for an exceptional Q/A experience.
+- **📚 Subject-Specific Retrieval**: Pinecone vector database enables retrieval of relevant content from multiple textbooks embedded by subject and class.
+- **💡 Contextual Answer Generation**: Gemini flash model generates precise answers tailored to the student's selected book and query.
+- **🎨 Interactive User Interface**: Built on Streamlit, providing an intuitive and clean interface for an optimal Q/A experience.
 
 ---
 
-## 🎉 What Makes Elysium Stand Out?
+## 🎬 Demo
 
-- **End-to-End AI Q/A Pipeline**: From retrieving the best data to crafting precise answers, this system covers it all.
-- **Built for Speed and Scale**: Optimized for handling high volumes of queries without breaking a sweat.
-- **Future-Ready Design**: Easily extendable to support additional models, languages, and more.
+Here’s a look at **EduQ** in action! See how students can select a book, enter a query, and receive instant, relevant answers.
+
+### 1. Selecting a Subject and Book
+![Book Selection Interface](path/to/book-selection-interface-image.png)
+
+Students select the book they want to query from within the Streamlit UI.
+
+### 2. Querying the Textbook
+![User Query Interface](path/to/user-query-interface-image.png)
+
+Type a question, and the system initiates the intelligent retrieval process.
+
+### 3. Retrieval with Pinecone
+![Pinecone Data Retrieval](path/to/pinecone-data-retrieval-image.png)
+
+Using Pinecone's vector database, EduQ locates the most contextually relevant information stored within the selected book.
+
+### 4. Answer Generation by Gemini
+![Gemini Model Response](path/to/gemini-model-response-image.png)
+
+The Gemini flash model crafts a clear, concise answer based on the retrieved data.
+
+### 5. Final Answer Display
+![Final Answer Display](path/to/final-answer-display-image.png)
+
+The generated answer appears instantly on the Streamlit interface, giving the student direct feedback to their question.
+
+---
+
+## 🎉 What Makes EduQ Unique?
+
+- **Class-Specific & Subject-Focused**: Students choose specific books, enhancing the relevance and accuracy of responses.
+- **Scalable Q/A System**: Optimized for multiple subjects and high query volumes.
+- **Flexible and Future-Proof**: Easily extendable to add more books, classes, or models.
 
 ---
 
@@ -31,17 +62,34 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MHusainAli/project-elysium.git
-   cd project-elysium
+   git clone https://github.com/YourUsername/eduq-ai.git
+   cd eduq-ai
+
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Setup API keys:**
+Set your Pinecone and Gemini API keys in the environment variables or within the configuration file as needed.
+
+4**Run the App:**  
+Launch the Streamlit app:
+
+```bash
+streamlit run app.py
+
 ## 🔍 How It Works
 
-1. **Input Your Query**: Type in any question through the Streamlit UI.
-2. **Similarity Search**: Pinecone, as a vector database, performs a similarity search on stored embeddings to find contextually relevant information.
-3. **AI-Driven Answer Generation**: The Gemini flash model uses the retrieved data to craft a contextual answer.
-4. **Instant Results**: The system displays your answer instantly on the Streamlit interface.
+1. **Book Selection**: The student selects a subject-specific book from the UI.
+2. **Input Query**: The student enters a question related to the selected book.
+3. **Similarity Search**: Pinecone performs a similarity search on embeddings for the chosen book, finding the most relevant content.
+4. **AI-Driven Answer Generation**: The Gemini flash model uses retrieved embeddings to generate a contextual answer.
+5. **Instant Display**: The system instantly shows the answer on the Streamlit interface.
 
 ---
 
 ## 🤝 Contributing
 
-Feel free to open issues or submit pull requests! Let’s push the boundaries of AI-driven Q/A together.
+Feel free to open issues or submit pull requests! Join us in advancing educational Q/A through the power of AI.
+
