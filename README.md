@@ -57,7 +57,7 @@ The generated answer appears instantly on the Streamlit interface, giving the st
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/eduq-ai.git
+   git clone https://github.com/HusainAli512/project-eduq.git
    cd eduq-ai
 
 
