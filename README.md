@@ -17,27 +17,22 @@
 Here’s a look at **EduQ** in action! See how students can select a book, enter a query, and receive instant, relevant answers.
 
 ### 1. Selecting a Subject and Book
-![Book Selection Interface](path/to/book-selection-interface-image.png)
+![Book Selection Interface](images/selectbooks.PNG)
 
 Students select the book they want to query from within the Streamlit UI.
 
 ### 2. Querying the Textbook
-![User Query Interface](path/to/user-query-interface-image.png)
+![User Query Interface](images/query.PNG)
 
 Type a question, and the system initiates the intelligent retrieval process.
 
 ### 3. Retrieval with Pinecone
-![Pinecone Data Retrieval](path/to/pinecone-data-retrieval-image.png)
+![Pinecone Data Retrieval](images/gernatringanswer.PNG)
 
 Using Pinecone's vector database, EduQ locates the most contextually relevant information stored within the selected book.
 
-### 4. Answer Generation by Gemini
-![Gemini Model Response](path/to/gemini-model-response-image.png)
-
-The Gemini flash model crafts a clear, concise answer based on the retrieved data.
-
-### 5. Final Answer Display
-![Final Answer Display](path/to/final-answer-display-image.png)
+### 4. Final Answer Display
+![Final Answer Display](images/answergenerated.PNG)
 
 The generated answer appears instantly on the Streamlit interface, giving the student direct feedback to their question.
 
@@ -73,11 +68,10 @@ The generated answer appears instantly on the Streamlit interface, giving the st
 3. **Setup API keys:**
 Set your Pinecone and Gemini API keys in the environment variables or within the configuration file as needed.
 
-4**Run the App:**  
+4. **Run the App:**  
 Launch the Streamlit app:
-
-```bash
-streamlit run app.py
+   ```bash
+   streamlit run app.py
 
 ## 🔍 How It Works
 
@@ -92,4 +86,5 @@ streamlit run app.py
 ## 🤝 Contributing
 
 Feel free to open issues or submit pull requests! Join us in advancing educational Q/A through the power of AI.
+
 
