@@ -1,0 +1,14 @@
+
+langchain
+langchain_community
+
+pinecone-client
+openai
+langchain
+
+google-generativeai
+langchain-openai
+streamlit
+ 
+
+
